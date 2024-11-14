@@ -33,9 +33,11 @@ body {
     display: flex;
     gap: 40px;
 }
+
 .list {
     padding: 24px 0;
 }
+
 .order-two {
     display: flex;
     gap: 40px;
@@ -101,6 +103,7 @@ body {
     height: 56px;
     border: none;
     border-radius: 4px;
+    display:block;
    
 
 }
@@ -116,7 +119,7 @@ body {
     padding: 120px 0;
 }
 .visually-hidden {
-    display: none;
+    list-style-type: none;
 }
 .order-three {
     display: flex;
