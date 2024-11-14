@@ -3,8 +3,23 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
+.head-one {
+    border-bottom: 1px solid #e7e9fc;
 
-.logo {
+}
+.div-one{
+    display: flex;
+}
+.container{
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.nav {
+    display: flex;
+    align-items: center;
+}
+.logo-one {
     font-family: "Raleway",sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -12,6 +27,18 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
+}
+.order-one {
+    display: flex;
+    gap: 40px;
+}
+.list {
+    padding: 24px 0;
+}
+.order-two {
+    display: flex;
+    gap: 40px;
 }
 .std {
     font-weight: 500;
@@ -49,6 +76,7 @@ body {
 
 .first-section {
     background-color: #2e2f42;
+    padding: 188px 0;
 }
 .baslik-bir {
     font-size: 56px;
@@ -56,6 +84,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;  
     color: #ffffff;
+    max-width: 496px;
 
 }
 .buton {
@@ -67,6 +96,11 @@ body {
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
+    margin: 0 auto;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
    
 
 }
@@ -78,12 +112,27 @@ body {
     
 }
 /****************section 2***************/
+.second-section {
+    padding: 120px 0;
+}
+.visually-hidden {
+    display: none;
+}
+.order-three {
+    display: flex;
+    gap:24px;
+}
+.order-threeli {
+    width: calc((100% - 72px) / 4);
+
+}
 .baslik-uc {
     font-weight:500;
     font-size:20px;
     line-height: 1.2;
     letter-spacing:0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .p-bir {
     font-size:16px;
@@ -96,20 +145,72 @@ body {
 /********************section 3*******************/
 .third-section {
     background-color: #f4f4fd;
+    padding: 120px 0;
 }
-.baslik-iki {
+.baslik-two {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform:capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
+    
+}
+.photo {
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+.div-two {
+    padding: 32px 0;
+}
+.name {
+    text-align: center;
+    margin-bottom: 8px;
+
+}
+
+.job {
+    text-align: center;
+}
+.fourth-section {
+    padding: 120px 0;
+}
+.order-four {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+.photo-two {
+    width: calc((100% - 72px) / 4);
+}
+.div-three {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
 }
 .last {
     background-color:#2e2f42;
+    padding: 100px 0;
+}
+.logo-two {
+    font-family: "Raleway",sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    margin-right: 76px;
+    display: inline-block;
+    margin-bottom: 16px;
+    
 }
 .p-iki {
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
