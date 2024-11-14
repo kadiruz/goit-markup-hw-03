@@ -182,7 +182,7 @@ body {
     column-gap: 24px;
     row-gap: 48px;
 }
-.photo-two {
+.list {
     width: calc((100% - 72px) / 4);
 }
 .div-three {
