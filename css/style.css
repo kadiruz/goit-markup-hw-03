@@ -34,10 +34,6 @@ body {
     gap: 40px;
 }
 
-.list {
-    padding: 24px 0;
-}
-
 .order-two {
     display: flex;
     gap: 40px;
@@ -81,7 +77,7 @@ body {
     background-color: #2e2f42;
     padding: 188px 0;
 }
-.baslik-bir {
+.baslik-one {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
