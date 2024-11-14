@@ -3,6 +3,9 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
+.photo{
+    display:block;
+}
 .head-one {
     border-bottom: 1px solid #e7e9fc;
 
@@ -49,7 +52,7 @@ body {
 .std:hover,
 .std:focus {
    color: #404bbf;
-   color: #404bbf;
+   
 }
 .spn {    /***span*/
     color: #2e2f42;    
@@ -68,7 +71,7 @@ body {
 .mail:hover,
 .mail:focus {
     color: #404bbf;
-    color: #404bbf;
+    
 
 }
 
