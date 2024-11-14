@@ -157,7 +157,7 @@ body {
     margin-bottom: 72px;
     
 }
-.list {
+.list-one {
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
@@ -182,7 +182,7 @@ body {
     column-gap: 24px;
     row-gap: 48px;
 }
-.list {
+.list-two {
     width: calc((100% - 72px) / 4);
 }
 .div-three {
