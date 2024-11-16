@@ -5,6 +5,9 @@ body {
 }
 .photo{
     display:block;
+    
+
+    
 }
 .head-one {
     border-bottom: 1px solid #e7e9fc;
@@ -188,6 +191,7 @@ body {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    
 }
 .list-two {
     width: calc((100% - 72px)) / 4;
@@ -197,6 +201,7 @@ body {
     border: 1px solid #e7e9fc;
     border-top: none;
     margin-bottom: 8px;
+   
 }
 .last {
     background-color:#2e2f42;
